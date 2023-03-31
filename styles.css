@@ -13,6 +13,11 @@ body {
     top: 0;
     width: 100%;
     z-index: 100;
+    /* Disables the hightlight double click */
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+
     -webkit-animation: moveNav 2.2s; /* -webkit-(animation) ensures that this will run properly on safari(apple browser) and chorme*/ 
     animation: moveNav 2.2s;
 }@keyframes moveNav {
