@@ -22,7 +22,7 @@
         <a href="#Home" class="active">Home</a>
         <a href="#About">About</a>
         <a href="#GitHub">GitHub</a>
-        <a href="#Contact">Contact</a>
+        <a onclick="OpenContact()" ondblclick="CloseContact()">Contact</a>
     </div>
 
     <br>
@@ -88,11 +88,12 @@
             </div>
         </div>
     </section>
-
+    
     <!--Contact Section-->
-
-        <div class="Contact-Form" >
+    <section>
+        <div id="Contact" >
             <form action="https://formspree.io/f/xgebzzvj" method="post">
+                <a onclick="CloseContact()">&#10005;</a>
                 <h1>Contact</h1>
                 <label>Name:</label>
                     <input type="text" id="Email" placeholder="Please enter your name here">
@@ -108,7 +109,7 @@
     <!--Footer-->
     <footer>
         <p>
-            <p class="center">Nathan Ilescas || <a href="https://github.com/Nathanilescas">GitHub</a></p>
+            <p>Nathan Ilescas || <a href="https://github.com/Nathanilescas">GitHub</a></p>
         </p>
     </footer>
 
