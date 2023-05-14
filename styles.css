@@ -196,6 +196,12 @@ body {
 #Experience_Info {
     display: none;
 }
+#CandUnity_Info{
+    display: none;
+}
+#CandUnreal_Info{
+    display: none;
+}
 
 /* Next & Previous Buttons */
 .prev,
