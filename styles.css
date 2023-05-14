@@ -215,6 +215,44 @@ body {
   background-color: rgba(97, 94, 94, 0.8);
 }
 
+
+
+/*=================
+  PROJECT SECTION
+=================*/
+
+.project_div{
+    
+    height: 700px;
+    background-color: black;
+
+
+}
+.project_images{
+    max-width: 50%;
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    float: left;
+}.project_imageTall{
+    background-color: purple;
+    width: 50%;
+    height: 100%;
+    float: right;
+
+}.project_imageSmall{
+    background-color: yellow;
+    width: 50%;
+    height: 25%;
+}
+.project_text{
+    background-color: red;
+    width: 50%;
+    height: 700px;
+    float: right;
+
+}
+
 /*=================
     CONTACT FORM
 =================*/
