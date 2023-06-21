@@ -243,11 +243,22 @@ body {
 .project_summary{
     width: 50%;
     height: 100%;
-    background-color: #008F11;
+    background-color: rgb(250, 247, 247);
     float: right;
     text-align: center;
     
 }
+.project_summary h3 {
+    background-color: #979797;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 2%;
+    word-spacing: 5px;
+    width: 75%;
+}
+
+
 
 
 /*=================
