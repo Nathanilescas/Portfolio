@@ -228,36 +228,38 @@ body {
 =================*/
 
 .project_div{
-    
+    margin-top: 25px;
     height: 700px;
     background-color: black;
+    overflow: hidden;
+}
+
+.gameimage{
+    width: 50%;
+    height: 50%;
 
 
 }
-.project_images{
-    max-width: 50%;
+.project_summary{
     width: 50%;
     height: 100%;
-    background-color: blue;
-    float: left;
-}.project_imageTall{
-    background-color: purple;
-    width: 50%;
-    height: 100%;
+    background-color: rgb(250, 247, 247);
     float: right;
-
-}.project_imageSmall{
-    background-color: yellow;
-    width: 50%;
-    height: 25%;
+    text-align: center;
+    
 }
-.project_text{
-    background-color: red;
-    width: 50%;
-    height: 700px;
-    float: right;
-
+.project_summary h3 {
+    background-color: #979797;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 2%;
+    word-spacing: 5px;
+    width: 75%;
 }
+
+
+
 
 /*=================
     CONTACT FORM
