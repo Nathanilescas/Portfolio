@@ -1,0 +1,11 @@
+body{
+    height: 100%;
+    margin: 0;
+}
+
+.full-page-background{
+    background-image: url('/Images/WallPaper-black1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
