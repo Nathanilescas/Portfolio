@@ -1,4 +1,8 @@
 
-const test = 
+const test =  (
+    <div title="Outer div">
+    <h1>Hello World!</h1>
+    </div>
+   );
 
-ReactDom.render(na,document.getElementById())
+ReactDom.render(test,document.getElementById('test'))
