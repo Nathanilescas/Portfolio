@@ -1,0 +1,26 @@
+{
+  "name": "configs",
+  "version": "1.0.0",
+  "description": "This Repository is for my portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel Scripts/Src --out-dir Scripts",
+    "watch": "babel Scripts/Src --out-dir Scripts --watch --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.8",
+    "@babel/preset-react": "^7.23.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nathanilescas/Portfolio"
+  }
+}
