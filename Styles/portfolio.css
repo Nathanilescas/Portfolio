@@ -151,11 +151,16 @@ form {
 
 /***** MEDIA QUERIES *****/
 
+@media (max-height: 600px) {
+    .main-content {
+        margin-top: 25vh;
+        position: relative;
+        bottom: 10vh;
+    }
+}
 
 @media (max-width: 780px) {
-    body {
-        background-color: lightgreen;
-    }
+   
 
     .main-content {
         margin-top: 20vh;
@@ -176,7 +181,7 @@ form {
 /***** FOOTER *****/
 
 footer {
-    position: fixed;
+    position: sticky;
     bottom: 0%;
     height: 10%;
     width: 100vw;
