@@ -24,15 +24,21 @@ var HeaderText = /*#__PURE__*/function (_React$Component) {
     value: function render() {
       var textStyle = {
         color: '#010101',
-        fontFamily: '"Jazz LET", fantasy',
-        // Change the font later
+        fontFamily: 'Arial, sans-serif',
         fontSize: '1.5em',
+        fontWeight: "900",
         letterSpacing: '.1em',
         textAlign: 'center'
       };
+      var pStyle = {
+        fontFamily: 'Brush Script MT',
+        fontSize: '1.5em'
+      };
       return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h1", {
         style: textStyle
-      }, "Nathan's Portfolio"));
+      }, "Nathan Ilescas's"), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("h1", {
+        style: pStyle
+      }, "Portfolio"));
     }
   }]);
   return HeaderText;

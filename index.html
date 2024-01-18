@@ -49,30 +49,6 @@
                 </nav>
         </div>
 
-        <!--OFF CANVAS POPUP-->
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-                <div class="Row" id="Contact">
-                    <!--Contact form, right column-->
-                    <div class="Column_1 Column_tall">
-                        <h1 style="text-align: center;">Contact</h1>
-                        <form action="" method="POST"> 
-                            <label>Name:</label>
-                                <input type="text" placeholder="Please enter your name here">
-                            <label>Email:</label>
-                                <input type="text" id="Email" name="Email" placeholder="email..">
-                            <label>Message:</label>
-                                <input type="text" id="Message" name="Message" placeholder="Any messages you have for me..">
-                                <input type="submit" value="SUBMIT">
-                        </form>
-                    </div>
-                </div>
-            </div>
-            </div>
         <!--Breaks inserted to add space between navbar and the first heading-->
         <br>
         <br>
@@ -98,11 +74,11 @@
                       </div>
                       <div class="col"> <!--Column Right-->
                         <div class="row">
-                            <div class="col-8 right-content-col-top">  
+                            <a class="col-8 right-content-col-top" href="https://www.linkedin.com/in/nathan-ilescas-developer/">  
                                 <p>Linked</p>
                                 <p style="background-color: #007bb6; padding: 0px 8px;border-radius: 10%; color: white;">in</p>
-                            </div>
-                                <button type="button" class="btn btn-primary col-8" data-bs-toggle="modal" data-bs-target="#ResumeModal">
+                            </a>
+                                <button type="button" class="btn btn-primary col-8 fs-2 fw-semibold " data-bs-toggle="modal" data-bs-target="#ResumeModal">
                                     Resume
                                 </button>
                         </div>
@@ -112,21 +88,46 @@
             </div>
         </div>
 
+
+        <!--OFF CANVAS POPUP-->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="Row" id="Contact">
+                    <!--Contact form, right column-->
+                    <div class="Column_1 Column_tall">
+                        <h1 style="text-align: center;">Contact</h1>
+                        <form action="mailto:nathan.ilescas@outlook.com" method="post"> 
+                            <label>Name:</label>
+                                <input type="text" placeholder="Please enter your name here">
+                            <label>Email:</label>
+                                <input type="text" id="Email" name="Email" placeholder="email..">
+                            <label>Message:</label>
+                                <input type="text" id="Message" name="Message" placeholder="Any messages you have for me..">
+                                <input type="submit" value="Send">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
   
-  <!-- Modal -->
+  <!-- Resume Modal -->
   <div class="modal fade" id="ResumeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <div class="modal-header ">
+          <h1 class="modal-title fs-5 " id="exampleModalLabel">Download Resume</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          ...
+          
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <a type="button" class="btn btn-primary" href="Documents/Resume.pdf" download="Nathan's_Resume">Download</a>
         </div>
       </div>
     </div>
@@ -135,7 +136,11 @@
         <!--Footer section-->
         <footer>
             <p>
-                <p>Nathan's Portfolio</p>
+                <p>
+                    Thank You 
+                    <br>
+                    For Visiting 
+                </p>
             </p>
         </footer>
     </body>
